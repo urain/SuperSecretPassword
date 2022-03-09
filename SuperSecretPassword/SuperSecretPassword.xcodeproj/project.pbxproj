@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE783DD927176C1600858D14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783DD827176C1600858D14 /* AppDelegate.swift */; };
+		CE783DDD27176C1600858D14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783DDC27176C1600858D14 /* ViewController.swift */; };
+		CE783DF827176CC300858D14 /* elsa_ana_olaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE783DEC27176CC200858D14 /* elsa_ana_olaf.jpg */; };
+		CE783DF927176CC300858D14 /* blippi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE783DED27176CC200858D14 /* blippi.jpg */; };
+		CE783DFA27176CC300858D14 /* elmo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE783DEE27176CC200858D14 /* elmo.jpg */; };
+		CE783DFB27176CC300858D14 /* candy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE783DEF27176CC200858D14 /* candy.jpg */; };
+		CE783DFC27176CC300858D14 /* confetti.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE783DF027176CC200858D14 /* confetti.gif */; };
+		CE783DFD27176CC300858D14 /* i_spy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE783DF127176CC200858D14 /* i_spy.jpg */; };
+		CE783DFE27176CC300858D14 /* peppa.png in Resources */ = {isa = PBXBuildFile; fileRef = CE783DF227176CC200858D14 /* peppa.png */; };
+		CE783DFF27176CC300858D14 /* bingo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE783DF327176CC200858D14 /* bingo.png */; };
+		CE783E0027176CC300858D14 /* party.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE783DF427176CC200858D14 /* party.jpg */; };
+		CE783E0127176CC300858D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE783DF527176CC200858D14 /* Assets.xcassets */; };
+		CE783E0227176CC300858D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE783DF627176CC300858D14 /* LaunchScreen.storyboard */; };
+		CE783E0327176CC300858D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE783DF727176CC300858D14 /* Main.storyboard */; };
+		CE783E0527176D6400858D14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783E0427176D6400858D14 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE783DD527176C1600858D14 /* SuperSecretPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSecretPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE783DD827176C1600858D14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE783DDC27176C1600858D14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE783DE627176C1800858D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE783DEC27176CC200858D14 /* elsa_ana_olaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elsa_ana_olaf.jpg; sourceTree = "<group>"; };
+		CE783DED27176CC200858D14 /* blippi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blippi.jpg; sourceTree = "<group>"; };
+		CE783DEE27176CC200858D14 /* elmo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elmo.jpg; sourceTree = "<group>"; };
+		CE783DEF27176CC200858D14 /* candy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = candy.jpg; sourceTree = "<group>"; };
+		CE783DF027176CC200858D14 /* confetti.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = confetti.gif; sourceTree = "<group>"; };
+		CE783DF127176CC200858D14 /* i_spy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = i_spy.jpg; sourceTree = "<group>"; };
+		CE783DF227176CC200858D14 /* peppa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peppa.png; sourceTree = "<group>"; };
+		CE783DF327176CC200858D14 /* bingo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bingo.png; sourceTree = "<group>"; };
+		CE783DF427176CC200858D14 /* party.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = party.jpg; sourceTree = "<group>"; };
+		CE783DF527176CC200858D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE783DF627176CC300858D14 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE783DF727176CC300858D14 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CE783E0427176D6400858D14 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE783DD227176C1600858D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE783DCC27176C1500858D14 = {
+			isa = PBXGroup;
+			children = (
+				CE783DD727176C1600858D14 /* SuperSecretPassword */,
+				CE783DD627176C1600858D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE783DD627176C1600858D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE783DD527176C1600858D14 /* SuperSecretPassword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE783DD727176C1600858D14 /* SuperSecretPassword */ = {
+			isa = PBXGroup;
+			children = (
+				CE783DD827176C1600858D14 /* AppDelegate.swift */,
+				CE783DDC27176C1600858D14 /* ViewController.swift */,
+				CE783E0427176D6400858D14 /* SceneDelegate.swift */,
+				CE783DF727176CC300858D14 /* Main.storyboard */,
+				CE783DF627176CC300858D14 /* LaunchScreen.storyboard */,
+				CE783DE627176C1800858D14 /* Info.plist */,
+				CE783DF527176CC200858D14 /* Assets.xcassets */,
+				CE783DF327176CC200858D14 /* bingo.png */,
+				CE783DED27176CC200858D14 /* blippi.jpg */,
+				CE783DEF27176CC200858D14 /* candy.jpg */,
+				CE783DF027176CC200858D14 /* confetti.gif */,
+				CE783DEE27176CC200858D14 /* elmo.jpg */,
+				CE783DEC27176CC200858D14 /* elsa_ana_olaf.jpg */,
+				CE783DF127176CC200858D14 /* i_spy.jpg */,
+				CE783DF427176CC200858D14 /* party.jpg */,
+				CE783DF227176CC200858D14 /* peppa.png */,
+			);
+			path = SuperSecretPassword;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE783DD427176C1600858D14 /* SuperSecretPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE783DE927176C1800858D14 /* Build configuration list for PBXNativeTarget "SuperSecretPassword" */;
+			buildPhases = (
+				CE783DD127176C1600858D14 /* Sources */,
+				CE783DD227176C1600858D14 /* Frameworks */,
+				CE783DD327176C1600858D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSecretPassword;
+			productName = SuperSecretPassword;
+			productReference = CE783DD527176C1600858D14 /* SuperSecretPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE783DCD27176C1500858D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CE783DD427176C1600858D14 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = CE783DD027176C1500858D14 /* Build configuration list for PBXProject "SuperSecretPassword" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE783DCC27176C1500858D14;
+			productRefGroup = CE783DD627176C1600858D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE783DD427176C1600858D14 /* SuperSecretPassword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE783DD327176C1600858D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE783DF827176CC300858D14 /* elsa_ana_olaf.jpg in Resources */,
+				CE783DFA27176CC300858D14 /* elmo.jpg in Resources */,
+				CE783DFD27176CC300858D14 /* i_spy.jpg in Resources */,
+				CE783E0327176CC300858D14 /* Main.storyboard in Resources */,
+				CE783DFF27176CC300858D14 /* bingo.png in Resources */,
+				CE783E0127176CC300858D14 /* Assets.xcassets in Resources */,
+				CE783DFE27176CC300858D14 /* peppa.png in Resources */,
+				CE783E0027176CC300858D14 /* party.jpg in Resources */,
+				CE783DF927176CC300858D14 /* blippi.jpg in Resources */,
+				CE783DFB27176CC300858D14 /* candy.jpg in Resources */,
+				CE783E0227176CC300858D14 /* LaunchScreen.storyboard in Resources */,
+				CE783DFC27176CC300858D14 /* confetti.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE783DD127176C1600858D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE783DDD27176C1600858D14 /* ViewController.swift in Sources */,
+				CE783DD927176C1600858D14 /* AppDelegate.swift in Sources */,
+				CE783E0527176D6400858D14 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE783DE727176C1800858D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE783DE827176C1800858D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE783DEA27176C1800858D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperSecretPassword/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Secret Password";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.SuperSecretPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE783DEB27176C1800858D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperSecretPassword/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Secret Password";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.SuperSecretPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE783DD027176C1500858D14 /* Build configuration list for PBXProject "SuperSecretPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE783DE727176C1800858D14 /* Debug */,
+				CE783DE827176C1800858D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE783DE927176C1800858D14 /* Build configuration list for PBXNativeTarget "SuperSecretPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE783DEA27176C1800858D14 /* Debug */,
+				CE783DEB27176C1800858D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE783DCD27176C1500858D14 /* Project object */;
+}
